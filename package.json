@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -15,6 +15,7 @@
             "import": "./dist/index.esm.js",
             "types": "./dist/index.d.ts"
         },
+        "./cascade.css": "./dist/cascade.css",
         "./package.json": "./package.json"
     },
     "engines": {
