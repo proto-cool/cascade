@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "format": "prettier --write ."
+    },
+    "prettier": {
+        "printWidth": 80,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "bracketSameLine": false,
+        "tabWidth": 4
+    },
+    "name": "@proto-cool/cascade",
+    "author": "protocol7",
+    "module": "dist/index.esm.js",
+    "dependencies": {
+        "motion": "^12.17.0"
+    },
+    "devDependencies": {
+        "rollup-plugin-typescript2": "^0.36.0",
+        "prettier": "^3.5.3",
+        "tslib": "^2.8.1",
+        "typescript": "^5.8.3",
+        "rollup-plugin-delete": "^3.0.1"
+    }
+}
