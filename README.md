@@ -43,11 +43,11 @@ cascade.enable();
 
 ```html
 <!-- Basic fade animation when element enters viewport -->
-<div data-cascade="fade">I'll fade in when visible</div>
+<div data-cascade="fadeIn">I'll fade in when visible</div>
 
 <!-- Slide animation with custom delay -->
-<div data-cascade="slide" data-cascade-delay="0.5">
-    I'll slide in after a delay
+<div data-cascade="fadeInUp" data-cascade-delay="0.5">
+    I'll fade in, sliding upwards, after a delay of half a second
 </div>
 ```
 
