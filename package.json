@@ -1,6 +1,12 @@
 {
-    "version": "1.0.2",
+    "name": "@proto-cool/cascade",
+    "author": "protocol7",
+    "version": "1.0.3",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/proto-cool/cascade.git"
+    },
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
@@ -21,6 +27,10 @@
     "engines": {
         "node": ">=20"
     },
+    "scripts": {
+        "build": "rollup -c",
+        "format": "prettier --write ."
+    },
     "prettier": {
         "printWidth": 80,
         "semi": true,
@@ -29,8 +39,6 @@
         "bracketSameLine": false,
         "tabWidth": 4
     },
-    "name": "@proto-cool/cascade",
-    "author": "protocol7",
     "dependencies": {
         "motion": "^12.17.0"
     },
@@ -41,8 +49,22 @@
         "typescript": "^5.8.3",
         "rollup-plugin-delete": "^3.0.1"
     },
-    "scripts": {
-        "build": "rollup -c",
-        "format": "prettier --write ."
-    }
+    "keywords": [
+        "animation",
+        "scroll",
+        "intersection-observer",
+        "motion",
+        "viewport",
+        "reveal",
+        "inview",
+        "css-animation",
+        "data-attributes",
+        "scroll-animation",
+        "emerge",
+        "fade-in",
+        "cascade",
+        "automatic",
+        "no-config",
+        "vanilla-js"
+    ]
 }
