@@ -1,6 +1,6 @@
 # @proto-cool/cascade
 
-A lightweight TypeScript library for creating smooth, performant animations when elements enter the viewport.
+A lightweight TypeScript library for easily defining smooth, performant animations when elements enter the viewport.
 
 [![npm version](https://img.shields.io/npm/v/@proto-cool/cascade.svg)](https://www.npmjs.com/package/@proto-cool/cascade)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -33,9 +33,13 @@ yarn add @proto-cool/cascade
 1. **Import and enable the library:**
 
 ```javascript
+//Import the CSS to have items invisible by default
+import "@proto-cool/cascade/cascade.css";
+
+// Import the `cascade` object for access to enable() and noscript
 import cascade from "@proto-cool/cascade";
 
-// Initialize with default settings
+// Initialize Cascade with default settings
 cascade.enable();
 ```
 
